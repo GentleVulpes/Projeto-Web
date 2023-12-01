@@ -1,0 +1,19 @@
+.footer{
+  background: linear-gradient(#C4202E,#81373D);
+  width: 100%;
+  display: block;
+  padding: 20px;
+}
+
+footer div{
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+
+.titulo_3{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}

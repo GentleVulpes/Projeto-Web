@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODS 4 - Educação de Qualidade</title>
+    <link rel="stylesheet" href="css/default.css" type="text/css">
+    <link rel="stylesheet" href="css/header.css" type="text/css">
+    <link rel="stylesheet" href="css/formPage.css" type="text/css">
+    <link rel="stylesheet" href="css/footer.css" type="text/css">
+
+</head>
+<body id="form_body">
+    <header>
+        <nav class="container_header">
+            <a href="index.html" id="home">
+                <img src="img/icon.svg" alt="ícone da ods 4 - Educação de qualidade">
+                <!-- <div id="numero">4</div> -->
+                <div id="titulo_educacao" class="titulo_1">educação de qualidade</div>
+                <div id="titulo_tipografia" class="titulo_1">Tipografia</div>
+            </a>
+            <a href="form.html" class="button_header">CADASTRAR</a> 
+        </nav>
+        <script src="script.js"></script>
+    </header>
+    
+    <section >
+        <div id="container_form">
+            <form>
+                <div id="subcontainer_form">
+                    <div id="titulo_formulario">Cadastrar Usuários</div>
+                    <label for="nome">Nome</label>
+                    <input type="text" placeholder="Digite o nome do usuário." name="nome" id="nome">
+                    <label for="idade">Digite sua idade</label>
+                    <input type="number" placeholder="Digite a idade do usuário" name="idade" id="idade">
+                    <label for="senha">Senha</label>
+                    <input type="password" placeholder="Digite a senha do usuário" name="senha" id="senha">
+                    <label for="confirmacao">Confirme a senha</label>
+                    <input type="password" placeholder="Digite novamente a senha do usuário" name="confirmacao" id="confirmacao">
+                    <label for="email">E-mail</label>
+                    <input type="text" placeholder="Digite o e-mail do usuário" name="email" id="email">
+                    <a class="botao" onclick="cadastrar()">CADASTRAR</a>
+                </div>
+               </form>
+
+        </div>
+       
+           <div class="container_lista" id="container_ul">
+               
+                <ul id="listagem"> <h3>LISTA DE CADASTROS</h3></ul>
+                <span id="remover_tudo" onclick="removerTodosDoSistema()">Remover Todos os Itens</span>
+           </div>
+    </section>
+    <footer class="footer">
+        <div>Autor: Danilo Bruno de Sousa</div>
+        <div>RA: 1476882</div>
+        <div>Contato: danilobrunodesousa@gmail.com</div>
+        <div>Repositório</div>
+    </footer>
+
+   
+</body>
+</html>

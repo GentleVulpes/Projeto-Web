@@ -1,0 +1,87 @@
+#login_header{
+  margin-right: 6px;
+}
+
+.button_header{
+  padding: 5px 30px;
+  background-color: #ffffff;
+  margin-right: 9px;
+  border-radius: 5px;
+  color: #522327;
+  font-weight: 600;
+  font-size:  pt;
+}
+.button_header:hover{
+  background-color: orange;
+  transition: 0.75s;
+}
+
+.container_header{
+  background: linear-gradient(#C4202E,#81373D);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+#home{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height:55px;
+  padding: 40px 20px;
+}
+
+
+#home .titulo_1{
+  font-size: 13pt;
+  font-weight: bold;
+  color: white;
+  width: 128px;
+  text-transform: uppercase;
+}
+
+#home #titulo_educacao{
+  border-style: solid;
+  border-left: 2px;
+  border-top: none;
+  border-bottom: none;
+  border-color: #FFFEFC;
+}
+
+#home #titulo_tipografia{
+  margin-left: 20px;
+  font-size: 36pt;
+}
+
+#home #numero {
+  font-size: 60pt;
+  font-weight: bold;
+  color: white;
+}
+
+#home img{
+  width: 80.37px;
+  justify-self: right;
+  margin-right: 20px;
+}
+
+.submenu{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: #522327;
+}
+
+.submenu .item_menu{
+  margin: 10px 20px;
+  font-size: 12pt;
+  text-transform: uppercase;
+  color: #d3d3d3;
+}
+
+.submenu .item_menu:hover{
+  color:white;
+  transition: 0.5s;
+}
